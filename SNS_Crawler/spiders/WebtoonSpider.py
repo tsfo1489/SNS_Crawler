@@ -116,9 +116,6 @@ class WebtoonTapasSpider(scrapy.Spider):
     name = 'webtoon_tapas'
     webtoons = ['https://tapas.io/series/tbate-comic/info']
     custom_settings = {
-        'ITEM_PIPELINES': {
-            'Crawler.pipelines.WebtoonPipeline' : 100
-        },
         'LOG_FILE': 'log/webtoon_tapas.log'
     }
 

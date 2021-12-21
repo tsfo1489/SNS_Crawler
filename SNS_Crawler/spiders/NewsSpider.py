@@ -151,7 +151,7 @@ class UkGuardianSpider(scrapy.Spider):
     custom_settings = {
         'DOWNLOAD_DELAY': 0.1,
         'DOWNLOADER_MIDDLEWARES' : {
-            'Crawler.middlewares.NewsDownloaderMiddleware': 543,
+            'SNS_Crawler.middlewares.NewsDownloaderMiddleware': 543,
         }
     }
 
@@ -631,9 +631,6 @@ class FRLeMondeSpider(scrapy.Spider):
     begin_date = datetime.strptime('2018-01-01', '%Y-%m-%d')
     end_date = datetime.strptime('2021-06-30', '%Y-%m-%d')
     custom_settings = {
-        'ITEM_PIPELINES': {
-            'Crawler.pipelines.NewsPipeline' : 100
-        },
         'LOG_FILE': 'log/lemonde.log'
     }
 
