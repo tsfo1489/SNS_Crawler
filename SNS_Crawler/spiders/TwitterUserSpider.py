@@ -1,8 +1,8 @@
 import json
 
 import scrapy
-from Crawler.items import TwitterUserItem
-from Crawler.apikey import *
+from SNS_Crawler.items import TwitterUserItem
+from SNS_Crawler.apikey import *
 from scrapy.loader import ItemLoader
 
 import twint

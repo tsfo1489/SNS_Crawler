@@ -1,7 +1,7 @@
 import json
 
 import scrapy
-from Crawler.items import TwitterRTItem
+from SNS_Crawler.items import TwitterRTItem
 from scrapy.loader import ItemLoader
 
 import twint

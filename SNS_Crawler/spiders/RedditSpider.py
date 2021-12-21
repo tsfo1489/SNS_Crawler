@@ -8,8 +8,8 @@ from dateutil.relativedelta import relativedelta
 
 import scrapy
 
-from Crawler.items import RedditItem
-from Crawler.apikey import *
+from SNS_Crawler.items import RedditItem
+from SNS_Crawler.apikey import *
 from scrapy.loader import ItemLoader
 
 
