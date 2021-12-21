@@ -1,0 +1,9 @@
+Scrapy==2.5.0
+selenium==3.141.0
+beautifulsoup4==4.9.3
+praw==7.4.0
+psaw==0.1.0
+twint @ git+https://github.com/twintproject/twint.git@e7c8a0c764f6879188e5c21e25fb6f1f856a7221
+PyMySQL==1.0.2
+python-dateutil==2.8.2
+regex==2021.8.21
